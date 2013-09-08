@@ -117,6 +117,32 @@
           <groupId>com.mycila</groupId>
           <artifactId>license-maven-plugin</artifactId>
           <version>${license-maven-plugin.version}</version>
+          <executions>
+            <execution>
+              <id>check</id>
+              <phase>prepare-package</phase>
+              <goals>
+                <goal>check</goal>
+              </goals>
+              <configuration>
+                <header>license/templates/apache-2.txt</header>
+                <headerDefinitions>
+                  <headerDefinition>license/definitions/apache-2-xml.xml</headerDefinition>
+                </headerDefinitions>
+                <properties>
+                  <owner>H.C. Wijbenga</owner>
+                  <year>${project.inceptionYear}</year>
+                </properties>
+              </configuration>
+            </execution>
+          </executions>
+          <dependencies>
+            <dependency>
+              <groupId>org.cavebeetle</groupId>
+              <artifactId>header</artifactId>
+              <version>${header.version}</version>
+            </dependency>
+          </dependencies>
         </plugin>
 
         <plugin>

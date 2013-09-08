@@ -73,7 +73,6 @@
     <junit.version>4.11</junit.version>
     <maven-plugin-annotations.version>3.2</maven-plugin-annotations.version>
     <maven-plugin-api.version>3.0.5</maven-plugin-api.version>
-    <maybe-api.version>1.0-SNAPSHOT</maybe-api.version>
     <mockito-core.version>1.9.5</mockito-core.version>
     <plexus-utils.version>3.0.10</plexus-utils.version>
     <slf4j-api.version>1.7.5</slf4j-api.version>

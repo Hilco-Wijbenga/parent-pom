@@ -104,6 +104,8 @@
     <versions-maven-plugin.version>2.0</versions-maven-plugin.version>
 
     <header.version>1-SNAPSHOT</header.version>
+    <maybe-api.version>1.0-SNAPSHOT</maybe-api.version>
+    <maybe-impl.version>1.0-SNAPSHOT</maybe-impl.version>
 
   </properties>
 

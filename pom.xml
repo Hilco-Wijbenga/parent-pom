@@ -125,18 +125,18 @@
               <goals>
                 <goal>check</goal>
               </goals>
-              <configuration>
-                <header>license/templates/apache-2.txt</header>
-                <headerDefinitions>
-                  <headerDefinition>license/definitions/apache-2-xml.xml</headerDefinition>
-                </headerDefinitions>
-                <properties>
-                  <owner>H.C. Wijbenga</owner>
-                  <year>${project.inceptionYear}</year>
-                </properties>
-              </configuration>
             </execution>
           </executions>
+          <configuration>
+            <header>license/templates/apache-2.txt</header>
+            <headerDefinitions>
+              <headerDefinition>license/definitions/apache-2-xml.xml</headerDefinition>
+            </headerDefinitions>
+            <properties>
+              <owner>H.C. Wijbenga</owner>
+              <year>${project.inceptionYear}</year>
+            </properties>
+          </configuration>
           <dependencies>
             <dependency>
               <groupId>org.cavebeetle</groupId>

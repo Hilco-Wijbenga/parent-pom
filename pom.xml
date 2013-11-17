@@ -68,7 +68,7 @@
     <commons-io.version>2.4</commons-io.version>
     <dagger.version>${dagger.main.version}</dagger.version>
     <dagger-compiler.version>${dagger.main.version}</dagger-compiler.version>
-    <guava.version>14.0.1</guava.version>
+    <guava.version>15.0</guava.version>
     <javax.inject.version>1</javax.inject.version>
     <junit.version>4.11</junit.version>
     <maven-plugin-annotations.version>3.2</maven-plugin-annotations.version>
@@ -87,17 +87,17 @@
     <maven-checkstyle-plugin.version>2.6</maven-checkstyle-plugin.version>
     <maven-clean-plugin.version>2.5</maven-clean-plugin.version>
     <maven-compiler-plugin.version>3.0</maven-compiler-plugin.version>
-    <maven-dependency-plugin.version>2.5.1</maven-dependency-plugin.version>
+    <maven-dependency-plugin.version>2.8</maven-dependency-plugin.version>
     <maven-deploy-plugin.version>2.7</maven-deploy-plugin.version>
     <maven-install-plugin.version>2.4</maven-install-plugin.version>
     <maven-jar-plugin.version>2.4</maven-jar-plugin.version>
     <maven-javadoc-plugin.version>2.9</maven-javadoc-plugin.version>
     <maven-jxr-plugin.version>2.3</maven-jxr-plugin.version>
     <maven-plugin-plugin.version>3.2</maven-plugin-plugin.version>
-    <maven-project-info-reports-plugin.version>2.6</maven-project-info-reports-plugin.version>
+    <maven-project-info-reports-plugin.version>2.7</maven-project-info-reports-plugin.version>
     <maven-release-plugin.version>2.3.2</maven-release-plugin.version>
     <maven-resources-plugin.version>2.6</maven-resources-plugin.version>
-    <maven-site-plugin.version>3.2</maven-site-plugin.version>
+    <maven-site-plugin.version>3.3</maven-site-plugin.version>
     <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
     <maven-surefire-plugin.version>2.16</maven-surefire-plugin.version>
     <maven-surefire-report-plugin.version>2.16</maven-surefire-report-plugin.version>
@@ -317,7 +317,6 @@
                       <report>dependencies</report>
                       <report>dependency-convergence</report>
                       <report>dependency-management</report>
-                      <report>help</report>
                       <report>index</report>
                       <report>issue-tracking</report>
                       <report>license</report>
